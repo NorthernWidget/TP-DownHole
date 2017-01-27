@@ -7911,6 +7911,12 @@ to be used</text>
 <text x="198.12" y="119.38" size="1.778" layer="97" align="top-left">Omit this resistor for I2C 0x77
 Unclear if needed for SPI
 (Read datasheet)</text>
+<text x="101.6" y="88.9" size="1.778" layer="97" align="top-left">Works with all
+MS5803 sensors.
+I currently am favoring
+the 05BA
+(dual barometer and
+depth meter: 0-5 bar)</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="124.46" y="96.52"/>
