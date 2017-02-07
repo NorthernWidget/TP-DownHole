@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7878,7 +7878,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM1/10W1%(0603)" device="0603" value="10K"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO" value="SOLDERJUMPERNO"/>
+<part name="SJ2" library="SparkFun-Passives" deviceset="SOLDERJUMPER" device="NO" value="I2C-select"/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
@@ -8123,6 +8123,11 @@ depth meter: 0-5 bar)</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,58.42,127.068,J1,,,,,"/>
+<approved hash="115,1,55.88,54.61,VTHERM,,,,,"/>
+<approved hash="115,1,68.58,127,PS,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
