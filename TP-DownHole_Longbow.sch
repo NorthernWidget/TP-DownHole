@@ -222,7 +222,7 @@
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Aesthetics">
+<library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
 We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
@@ -231,7 +231,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CREATIVE_COMMONS">
+<package name="CREATIVE_COMMONS" urn="urn:adsk.eagle:footprint:37005/1" library_version="1">
 <description>&lt;h3&gt;Creative Commons License Template&lt;/h3&gt;
 &lt;p&gt;CC BY-SA 4.0 License with &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;link to license&lt;/a&gt; and placeholder for designer name.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -241,7 +241,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
-<package name="OSHW-LOGO-S">
+<package name="OSHW-LOGO-S" urn="urn:adsk.eagle:footprint:37013/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Silkscreen&lt;/h3&gt;
 &lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -282,7 +282,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
-<package name="DUMMY">
+<package name="DUMMY" urn="urn:adsk.eagle:footprint:37006/1" library_version="1">
 <description>&lt;h3&gt;Dummy Footprint&lt;/h3&gt;
 &lt;p&gt;NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.&lt;/p&gt;
 
@@ -290,7 +290,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;ul&gt;&lt;li&gt;BADGERHACK_LOGO&lt;/li&gt;
 &lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 </package>
-<package name="OSHW-LOGO-S_COPPER">
+<package name="OSHW-LOGO-S_COPPER" urn="urn:adsk.eagle:footprint:37008/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Small - Top Copper&lt;/h3&gt;
 &lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -331,7 +331,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-M_COPPER">
+<package name="OSHW-LOGO-M_COPPER" urn="urn:adsk.eagle:footprint:37009/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Medium - Top Copper&lt;/h3&gt;
 &lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -372,7 +372,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-L_COPPER">
+<package name="OSHW-LOGO-L_COPPER" urn="urn:adsk.eagle:footprint:37010/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Large - Top Copper&lt;/h3&gt;
 &lt;p&gt;Exposed copper logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -413,7 +413,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-L">
+<package name="OSHW-LOGO-L" urn="urn:adsk.eagle:footprint:37011/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Large - Silkscreen&lt;/h3&gt;
 &lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -454,7 +454,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-M">
+<package name="OSHW-LOGO-M" urn="urn:adsk.eagle:footprint:37012/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Medium - Silkscreen&lt;/h3&gt;
 &lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -495,7 +495,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.299" y="-0.7218"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-MINI">
+<package name="OSHW-LOGO-MINI" urn="urn:adsk.eagle:footprint:37014/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo - Mini - Silkscreen&lt;/h3&gt;
 &lt;p&gt;Silkscreen logo for open-source hardware designs.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -693,8 +693,67 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 </packages>
+<packages3d>
+<package3d name="CREATIVE_COMMONS" urn="urn:adsk.eagle:package:37121/1" type="box" library_version="1">
+<description>Creative Commons License Template
+CC BY-SA 4.0 License with link to license and placeholder for designer name.
+Devices using:
+FRAME_LEDGER
+FRAME_LETTER</description>
+</package3d>
+<package3d name="DUMMY" urn="urn:adsk.eagle:package:37104/1" type="box" library_version="1">
+<description>Dummy Footprint
+NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.
+
+Devices using:
+BADGERHACK_LOGO
+FRAME-LETTER</description>
+</package3d>
+<package3d name="OSHW-LOGO-S" urn="urn:adsk.eagle:package:37099/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Small - Silkscreen
+Silkscreen logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+</package3d>
+<package3d name="OSHW-LOGO-S_COPPER" urn="urn:adsk.eagle:package:37100/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Small - Top Copper
+Exposed copper logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+</package3d>
+<package3d name="OSHW-LOGO-M_COPPER" urn="urn:adsk.eagle:package:37119/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Medium - Top Copper
+Exposed copper logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+</package3d>
+<package3d name="OSHW-LOGO-L_COPPER" urn="urn:adsk.eagle:package:37117/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Large - Top Copper
+Exposed copper logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+</package3d>
+<package3d name="OSHW-LOGO-L" urn="urn:adsk.eagle:package:37097/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Large - Silkscreen
+Silkscreen logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+</package3d>
+<package3d name="OSHW-LOGO-M" urn="urn:adsk.eagle:package:37126/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Medium - Silkscreen
+Silkscreen logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+</package3d>
+<package3d name="OSHW-LOGO-MINI" urn="urn:adsk.eagle:package:37101/1" type="box" library_version="1">
+<description>Open-Source Hardware (OSHW) Logo - Mini - Silkscreen
+Silkscreen logo for open-source hardware designs.
+Devices using:
+OSHW_LOGO</description>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="FRAME-LETTER">
+<symbol name="FRAME-LETTER" urn="urn:adsk.eagle:symbol:37003/1" library_version="1">
 <description>&lt;h3&gt;Schematic Frame - Letter&lt;/h3&gt;
 &lt;p&gt;Standard 8.5x11 US Ledger frame&lt;/p&gt;
 &lt;p&gt;Devices using&lt;ul&gt;&lt;li&gt;FRAME-LETTER&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
@@ -703,7 +762,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0" y1="185.42" x2="0" y2="0" width="0.4064" layer="94"/>
 <wire x1="0" y1="0" x2="248.92" y2="0" width="0.4064" layer="94"/>
 </symbol>
-<symbol name="DOCFIELD">
+<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:37004/1" library_version="1">
 <description>&lt;h3&gt;Schematic Documentation Field&lt;/h3&gt;
 &lt;p&gt;Autofilling schematic symbol-layer info including board name, designer, revision, and save date.&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -745,7 +804,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="OSHW-LOGO">
+<symbol name="OSHW-LOGO" urn="urn:adsk.eagle:symbol:37007/1" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo&lt;/h3&gt;
 &lt;p&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: &lt;a href="http://freedomdefined.org/OSHW"&gt;http://freedomdefined.org/OSHW&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Devices using&lt;ul&gt;&lt;li&gt;OSHW_LOGO&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
@@ -4304,7 +4363,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME-LETTER" prefix="FRAME">
+<deviceset name="FRAME-LETTER" urn="urn:adsk.eagle:component:37169/1" prefix="FRAME" library_version="1">
 <description>&lt;h3&gt;Schematic Frame - Letter&lt;/h3&gt;
 &lt;p&gt;Standard 8.5x11 US Letter frame&lt;/p&gt;</description>
 <gates>
@@ -4313,11 +4372,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </gates>
 <devices>
 <device name="" package="CREATIVE_COMMONS">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37121/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="NO_PACKAGE" package="DUMMY">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37104/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESIGNER" value="Nobody" constant="no"/>
@@ -4340,7 +4405,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="OSHW-LOGO" prefix="LOGO">
+<deviceset name="OSHW-LOGO" urn="urn:adsk.eagle:component:37171/1" prefix="LOGO" library_version="1">
 <description>&lt;h3&gt;Open-Source Hardware (OSHW) Logo&lt;/h3&gt;
 &lt;p&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: &lt;a href="http://freedomdefined.org/OSHW"&gt;http://freedomdefined.org/OSHW&lt;/a&gt;&lt;/p&gt;</description>
 <gates>
@@ -4348,36 +4413,57 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </gates>
 <devices>
 <device name="S-COPPER" package="OSHW-LOGO-S_COPPER">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37100/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="M-COPPER" package="OSHW-LOGO-M_COPPER">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37119/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="L-COPPER" package="OSHW-LOGO-L_COPPER">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37117/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="L" package="OSHW-LOGO-L">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37097/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="M" package="OSHW-LOGO-M">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37126/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="S" package="OSHW-LOGO-S">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37099/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 <device name="MINI" package="OSHW-LOGO-MINI">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:37101/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4386,7 +4472,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Capacitors">
+<library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
 We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
@@ -8480,8 +8566,38 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <rectangle x1="0.7" y1="0.85" x2="1.2" y2="1.5" layer="51"/>
 <rectangle x1="-0.25" y1="0.85" x2="0.25" y2="1.5" layer="51"/>
 <rectangle x1="-1.2" y1="0.85" x2="-0.7" y2="1.5" layer="51"/>
+<wire x1="-1.2" y1="-1.5" x2="-1.2" y2="-0.85" width="0.0011" layer="57"/>
+<wire x1="-1.2" y1="-0.85" x2="-0.7" y2="-0.85" width="0.0011" layer="57"/>
+<wire x1="-0.7" y1="-0.85" x2="-0.7" y2="-1.5" width="0.0011" layer="57"/>
+<wire x1="-0.7" y1="-1.5" x2="-1.2" y2="-1.5" width="0.0011" layer="57"/>
+<wire x1="-0.25" y1="-1.5" x2="-0.25" y2="-0.85" width="0.0011" layer="57"/>
+<wire x1="-0.25" y1="-0.85" x2="0.25" y2="-0.85" width="0.0011" layer="57"/>
+<wire x1="0.25" y1="-0.85" x2="0.25" y2="-1.5" width="0.0011" layer="57"/>
+<wire x1="0.25" y1="-1.5" x2="-0.25" y2="-1.5" width="0.0011" layer="57"/>
+<wire x1="0.7" y1="-1.5" x2="0.7" y2="-0.85" width="0.0011" layer="57"/>
+<wire x1="0.7" y1="-0.85" x2="1.2" y2="-0.85" width="0.0011" layer="57"/>
+<wire x1="1.2" y1="-0.85" x2="1.2" y2="-1.5" width="0.0011" layer="57"/>
+<wire x1="1.2" y1="-1.5" x2="0.7" y2="-1.5" width="0.0011" layer="57"/>
+<wire x1="0.7" y1="0.85" x2="0.7" y2="1.5" width="0.0011" layer="57"/>
+<wire x1="0.7" y1="1.5" x2="1.2" y2="1.5" width="0.0011" layer="57"/>
+<wire x1="1.2" y1="1.5" x2="1.2" y2="0.85" width="0.0011" layer="57"/>
+<wire x1="1.2" y1="0.85" x2="0.7" y2="0.85" width="0.0011" layer="57"/>
+<wire x1="-0.25" y1="0.85" x2="-0.25" y2="1.5" width="0.0011" layer="57"/>
+<wire x1="-0.25" y1="1.5" x2="0.25" y2="1.5" width="0.0011" layer="57"/>
+<wire x1="0.25" y1="1.5" x2="0.25" y2="0.85" width="0.0011" layer="57"/>
+<wire x1="0.25" y1="0.85" x2="-0.25" y2="0.85" width="0.0011" layer="57"/>
+<wire x1="-1.2" y1="0.85" x2="-1.2" y2="1.5" width="0.0011" layer="57"/>
+<wire x1="-1.2" y1="1.5" x2="-0.7" y2="1.5" width="0.0011" layer="57"/>
+<wire x1="-0.7" y1="1.5" x2="-0.7" y2="0.85" width="0.0011" layer="57"/>
+<wire x1="-0.7" y1="0.85" x2="-1.2" y2="0.85" width="0.0011" layer="57"/>
+<wire x1="1.422" y1="0.81" x2="1.422" y2="-0.81" width="0.0011" layer="57"/>
+<wire x1="1.422" y1="-0.81" x2="-1.422" y2="-0.81" width="0.0011" layer="57"/>
+<wire x1="-1.422" y1="-0.81" x2="-1.422" y2="0.81" width="0.0011" layer="57"/>
+<wire x1="-1.422" y1="0.81" x2="-0.522" y2="0.81" width="0.0011" layer="57"/>
+<wire x1="-0.428" y1="0.81" x2="1.422" y2="0.81" width="0.0011" layer="57"/>
+<wire x1="-0.522" y1="0.81" x2="-0.428" y2="0.81" width="0.0011" layer="57"/>
 </package>
-<package name="SO08" urn="urn:adsk.eagle:footprint:38406/1+">
+<package name="SO08">
 <description>SOIC, 0.15 inch width</description>
 <wire x1="2.3368" y1="1.9463" x2="-2.3368" y2="1.9463" width="0.2032" layer="21"/>
 <wire x1="2.4368" y1="-1.9463" x2="2.7178" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
@@ -8538,6 +8654,10 @@ Source: http://focus.ti.com/lit/ds/slcs146e/slcs146e.pdf</description>
 <wire x1="-4.375" y1="-2" x2="4.375" y2="-2" width="0.127" layer="21"/>
 <wire x1="4.375" y1="-2" x2="4.375" y2="2" width="0.127" layer="21"/>
 <wire x1="4.375" y1="2" x2="-4.375" y2="2" width="0.127" layer="21"/>
+<wire x1="-4.375" y1="2" x2="-4.375" y2="-2" width="0.00175" layer="57"/>
+<wire x1="-4.375" y1="-2" x2="4.375" y2="-2" width="0.00175" layer="57"/>
+<wire x1="4.375" y1="-2" x2="4.375" y2="2" width="0.00175" layer="57"/>
+<wire x1="4.375" y1="2" x2="-4.375" y2="2" width="0.00175" layer="57"/>
 </package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
@@ -11669,6 +11789,9 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="POGO_PAD">
+<smd name="P$1" x="0" y="0" dx="0.75" dy="0.75" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS797XX">
@@ -11750,6 +11873,13 @@ Source: AVX .. aphvc.pdf</description>
 <rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="POGO_PAD">
+<pin name="P$1" x="0" y="0" visible="off" length="middle" rot="R180"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -11919,7 +12049,30 @@ Digikey: &lt;br&gt;&lt;a href = "https://www.digikey.com/product-detail/en/texas
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE_PART" value="" constant="no"/>
+</technology>
+<technology name="10K">
+<attribute name="DIGIKEY" value="311-10.0KHRCT-ND" constant="no"/>
+<attribute name="MF" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-0710KL" constant="no"/>
+<attribute name="VALUE_PART" value="10k" constant="no"/>
+</technology>
+<technology name="27">
+<attribute name="DIGIKEY" value="311-27.0HRCT-ND" constant="no"/>
+<attribute name="MF" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-0727RL" constant="no"/>
+<attribute name="VALUE_PART" value="27" constant="no"/>
+</technology>
+<technology name="330">
+<attribute name="DIGIKEY" value="311-330HRCT-ND" constant="no"/>
+<attribute name="MF" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-07330RL" constant="no"/>
+<attribute name="VALUE_PART" value="330" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="R0805" package="R0805">
@@ -12710,7 +12863,31 @@ Digikey: &lt;br&gt;&lt;a href = "https://www.digikey.com/product-detail/en/texas
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+<technology name="0.1UF">
+<attribute name="DIGIKEY" value="1276-1005-1-ND" constant="no"/>
+<attribute name="MF" value="Samsung" constant="no"/>
+<attribute name="MPN" value="CL10B104KO8NNNC" constant="no"/>
+</technology>
+<technology name="12PF">
+<attribute name="DIGIKEY" value="1276-1254-1-ND" constant="no"/>
+<attribute name="MF" value="Samsung" constant="no"/>
+<attribute name="MPN" value="CL10C120JB8NNNC" constant="no"/>
+</technology>
+<technology name="1UF">
+<attribute name="DIGIKEY" value="1276-6524-1-ND" constant="no"/>
+<attribute name="MF" value="Samsung" constant="no"/>
+<attribute name="MPN" value="1276-6524-1-ND" constant="no"/>
+</technology>
+<technology name="2.2UF">
+<attribute name="DIGIKEY" value="1276-1183-1-ND" constant="no"/>
+<attribute name="MF" value="Samsung" constant="no"/>
+<attribute name="MPN" value="CL10A225KQ8NNNC" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C0805" package="C0805">
@@ -12719,7 +12896,21 @@ Digikey: &lt;br&gt;&lt;a href = "https://www.digikey.com/product-detail/en/texas
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+</technology>
+<technology name="10UF">
+<attribute name="DIGIKEY" value="1276-2405-1-ND" constant="no"/>
+<attribute name="MF" value="Samsung" constant="no"/>
+<attribute name="MPN" value="CL21A106KQCLRNC" constant="no"/>
+</technology>
+<technology name="22UF">
+<attribute name="DIGIKEY" value="1276-6687-1-ND" constant="no"/>
+<attribute name="MF" value="Samsung" constant="no"/>
+<attribute name="MPN" value="CL21A226KQCLRNC" constant="no"/>
+</technology>
 </technologies>
 </device>
 <device name="C1206" package="C1206">
@@ -13399,6 +13590,23 @@ Digikey: &lt;br&gt;&lt;a href = "https://www.digikey.com/product-detail/en/texas
 </device>
 </devices>
 </deviceset>
+<deviceset name="POGO_PAD">
+<description>&lt;p&gt;&lt;b&gt;POGO Pad&lt;/b&gt;
+&lt;br&gt;SMD pad for interfacing with POGO Pins &lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="POGO_PAD" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="POGO_PAD">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
@@ -13563,23 +13771,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="U1" library="MS5803" deviceset="MS5803-14BA" device=""/>
-<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
+<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-LETTER" device="" package3d_urn="urn:adsk.eagle:package:37121/1"/>
+<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="R1" library="bschulz" deviceset="R-EU_" device="R0402" value="3k"/>
 <part name="R2" library="bschulz" deviceset="R-EU_" device="R0402" value="3k"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
-<part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
-<part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
 <part name="R3" library="bschulz" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="R4" library="bschulz" deviceset="R-EU_" device="R0402" value="10K"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
-<part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
+<part name="GND6" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
+<part name="LOGO3" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="OSHW-LOGO" device="S" package3d_urn="urn:adsk.eagle:package:37099/1"/>
 <part name="RREF" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/1" value="47k"/>
 <part name="THERM" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/1" value="R0=47k"/>
-<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="U$1" library="bschulz" deviceset="TPS797XX" device=""/>
 <part name="U$2" library="bschulz" deviceset="MCP3425" device=""/>
@@ -13610,6 +13818,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C2" library="bschulz" deviceset="C-EU" device="C0603" value="0.47uF"/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C3" library="bschulz" deviceset="C-EU" device="C0603" value="0.1uF"/>
+<part name="U$3" library="bschulz" deviceset="POGO_PAD" device=""/>
+<part name="U$6" library="bschulz" deviceset="POGO_PAD" device=""/>
+<part name="U$7" library="bschulz" deviceset="POGO_PAD" device=""/>
+<part name="U$8" library="bschulz" deviceset="POGO_PAD" device=""/>
+<part name="U$9" library="bschulz" deviceset="POGO_PAD" device=""/>
+<part name="U$10" library="bschulz" deviceset="POGO_PAD" device=""/>
+<part name="U$11" library="bschulz" deviceset="POGO_PAD" device=""/>
+<part name="U$12" library="bschulz" deviceset="POGO_PAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13690,6 +13906,14 @@ depth meter: 0-5 bar)</text>
 <instance part="C2" gate="G$1" x="83.82" y="101.6"/>
 <instance part="GND9" gate="1" x="83.82" y="91.44"/>
 <instance part="C3" gate="G$1" x="40.64" y="101.6"/>
+<instance part="U$3" gate="G$1" x="60.96" y="86.36"/>
+<instance part="U$6" gate="G$1" x="60.96" y="81.28"/>
+<instance part="U$7" gate="G$1" x="60.96" y="76.2"/>
+<instance part="U$8" gate="G$1" x="60.96" y="71.12"/>
+<instance part="U$9" gate="G$1" x="60.96" y="66.04"/>
+<instance part="U$10" gate="G$1" x="60.96" y="60.96"/>
+<instance part="U$11" gate="G$1" x="88.9" y="73.66"/>
+<instance part="U$12" gate="G$1" x="88.9" y="68.58"/>
 </instances>
 <busses>
 </busses>
@@ -13765,6 +13989,11 @@ depth meter: 0-5 bar)</text>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="93.98" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
+<label x="63.5" y="81.28" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PS" class="0">
 <segment>
@@ -13777,26 +14006,18 @@ depth meter: 0-5 bar)</text>
 <junction x="165.1" y="154.94"/>
 </segment>
 </net>
-<net name="SDA/SDI" class="0">
+<net name="MISO" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SDA/SDI"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="152.4" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="152.4" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
-<junction x="121.92" y="152.4"/>
-<label x="119.38" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$8" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
+<label x="63.5" y="71.12" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="SCL/SCLK" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="SCL/SCLK"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="134.62" y1="149.86" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="149.86" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="149.86" x2="104.14" y2="149.86" width="0.1524" layer="91"/>
-<junction x="106.68" y="149.86"/>
-<label x="104.14" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$4" gate="G$1" pin="PA5"/>
+<wire x1="167.64" y1="86.36" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="86.36" x2="182.88" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="76.2" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
+<label x="185.42" y="76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDO" class="0">
@@ -13834,13 +14055,10 @@ depth meter: 0-5 bar)</text>
 <wire x1="20.32" y1="175.26" x2="25.4" y2="175.26" width="0.1524" layer="91"/>
 <label x="25.4" y="175.26" size="1.778" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="VCC" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="VCC"/>
-<wire x1="137.16" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="73.66" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
+<pinref part="U$11" gate="G$1" pin="P$1"/>
+<wire x1="88.9" y1="73.66" x2="96.52" y2="73.66" width="0.1524" layer="91"/>
+<label x="93.98" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -13884,6 +14102,20 @@ depth meter: 0-5 bar)</text>
 <wire x1="58.42" y1="20.32" x2="45.72" y2="20.32" width="0.1524" layer="91"/>
 <label x="45.72" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="76.2" x2="68.58" y2="76.2" width="0.1524" layer="91"/>
+<label x="63.5" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SDA/SDI"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="152.4" x2="121.92" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="152.4" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="152.4" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
+<junction x="121.92" y="152.4"/>
+<label x="119.38" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
@@ -13903,6 +14135,20 @@ depth meter: 0-5 bar)</text>
 <wire x1="55.88" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
 <label x="45.72" y="25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SCL/SCLK"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="134.62" y1="149.86" x2="106.68" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="149.86" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="149.86" x2="104.14" y2="149.86" width="0.1524" layer="91"/>
+<junction x="106.68" y="149.86"/>
+<label x="104.14" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="60.96" x2="68.58" y2="60.96" width="0.1524" layer="91"/>
+<label x="63.5" y="60.96" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="/RESET" class="0">
 <segment>
@@ -13912,6 +14158,11 @@ depth meter: 0-5 bar)</text>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="129.54" y1="86.36" x2="127" y2="86.36" width="0.1524" layer="91"/>
 <junction x="129.54" y="86.36"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="66.04" x2="68.58" y2="66.04" width="0.1524" layer="91"/>
+<label x="63.5" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX+" class="0">
@@ -14035,6 +14286,31 @@ depth meter: 0-5 bar)</text>
 <pinref part="PAD7" gate="1" pin="P"/>
 <wire x1="45.72" y1="175.26" x2="50.8" y2="175.26" width="0.1524" layer="91"/>
 <label x="50.8" y="175.26" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="VCC"/>
+<wire x1="137.16" y1="73.66" x2="134.62" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="73.66" x2="134.62" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<wire x1="60.96" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
+<label x="63.5" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TEST_PIN" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="PA0"/>
+<wire x1="137.16" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="83.82" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="78.74" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
+<label x="116.84" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="P$1"/>
+<wire x1="88.9" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
+<label x="93.98" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
