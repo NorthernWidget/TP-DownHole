@@ -13826,6 +13826,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$10" library="bschulz" deviceset="POGO_PAD" device=""/>
 <part name="U$11" library="bschulz" deviceset="POGO_PAD" device=""/>
 <part name="U$12" library="bschulz" deviceset="POGO_PAD" device=""/>
+<part name="R6" library="bschulz" deviceset="R-EU_" device="R0402"/>
+<part name="R7" library="bschulz" deviceset="R-EU_" device="R0402"/>
 </parts>
 <sheets>
 <sheet>
@@ -13914,6 +13916,8 @@ depth meter: 0-5 bar)</text>
 <instance part="U$10" gate="G$1" x="60.96" y="60.96"/>
 <instance part="U$11" gate="G$1" x="88.9" y="73.66"/>
 <instance part="U$12" gate="G$1" x="88.9" y="68.58"/>
+<instance part="R6" gate="G$1" x="223.52" y="60.96" rot="R90"/>
+<instance part="R7" gate="G$1" x="223.52" y="45.72" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -14176,6 +14180,11 @@ depth meter: 0-5 bar)</text>
 <wire x1="220.98" y1="83.82" x2="226.06" y2="83.82" width="0.1524" layer="91"/>
 <label x="226.06" y="83.82" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="50.8" x2="231.14" y2="50.8" width="0.1524" layer="91"/>
+<label x="231.14" y="50.8" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="TX-" class="0">
 <segment>
@@ -14187,6 +14196,11 @@ depth meter: 0-5 bar)</text>
 <pinref part="U$5" gate="G$1" pin="Z"/>
 <label x="233.68" y="81.28" size="1.778" layer="95" xref="yes"/>
 <wire x1="220.98" y1="81.28" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="40.64" x2="231.14" y2="40.64" width="0.1524" layer="91"/>
+<label x="231.14" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RX+" class="0">
@@ -14200,6 +14214,11 @@ depth meter: 0-5 bar)</text>
 <label x="233.68" y="93.98" size="1.778" layer="95" xref="yes"/>
 <wire x1="233.68" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="66.04" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
+<label x="231.14" y="66.04" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="RX-" class="0">
 <segment>
@@ -14211,6 +14230,11 @@ depth meter: 0-5 bar)</text>
 <pinref part="U$5" gate="G$1" pin="B"/>
 <wire x1="220.98" y1="91.44" x2="226.06" y2="91.44" width="0.1524" layer="91"/>
 <label x="226.06" y="91.44" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="55.88" x2="231.14" y2="55.88" width="0.1524" layer="91"/>
+<label x="231.14" y="55.88" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="3V3" class="0">
