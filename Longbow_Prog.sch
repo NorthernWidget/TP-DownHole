@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.0">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -159,7 +159,7 @@
 <library name="bschulz">
 <packages>
 <package name="POGO_HOLE">
-<pad name="P$1" x="0" y="0" drill="0.9"/>
+<pad name="P$1" x="0" y="0" drill="1.016" diameter="1.4224"/>
 </package>
 <package name="R0402">
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
