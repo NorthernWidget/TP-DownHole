@@ -95,7 +95,7 @@
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
@@ -167,6 +167,8 @@ Prog</text>
 <wire x1="16.51" y1="26.448" x2="14.51" y2="28.448" width="0" layer="20" curve="90"/>
 <wire x1="14.51" y1="28.448" x2="2" y2="28.448" width="0" layer="20"/>
 <wire x1="2" y1="28.448" x2="0" y2="26.448" width="0" layer="20" curve="90"/>
+<text x="1.27" y="13.97" size="1.27" layer="122" font="vector" rot="MR180">Northern Widget
+Bobby Schulz</text>
 </plain>
 <libraries>
 <library name="adafruit" urn="urn:adsk.eagle:library:420">
@@ -200,31 +202,6 @@ Prog</text>
 <pad name="6" x="1.27" y="-2.54" drill="0.9" diameter="1.6256"/>
 <text x="-3.048" y="-3.048" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-3.048" y="3.556" size="1.016" layer="21" font="vector">1</text>
-</package>
-<package name="CHIPLED_0805" library_version="1">
-<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
-Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
-<wire x1="-0.35" y1="1" x2="0.35" y2="1" width="0.1016" layer="51" curve="180" cap="flat"/>
-<wire x1="-0.35" y1="-1" x2="0.35" y2="-1" width="0.1016" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.575" y1="0.525" x2="0.575" y2="-0.525" width="0.1016" layer="51"/>
-<wire x1="-0.575" y1="-0.5" x2="-0.575" y2="0.925" width="0.1016" layer="51"/>
-<circle x="-0.45" y="0.85" radius="0.103" width="0.1016" layer="51"/>
-<smd name="C" x="0" y="1.05" dx="1.2" dy="1.2" layer="1"/>
-<smd name="A" x="0" y="-1.05" dx="1.2" dy="1.2" layer="1"/>
-<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="0.3" y1="0.5" x2="0.625" y2="1" layer="51"/>
-<rectangle x1="-0.325" y1="0.5" x2="-0.175" y2="0.75" layer="51"/>
-<rectangle x1="0.175" y1="0.5" x2="0.325" y2="0.75" layer="51"/>
-<rectangle x1="-0.2" y1="0.5" x2="0.2" y2="0.675" layer="51"/>
-<rectangle x1="0.3" y1="-1" x2="0.625" y2="-0.5" layer="51"/>
-<rectangle x1="-0.625" y1="-1" x2="-0.3" y2="-0.5" layer="51"/>
-<rectangle x1="0.175" y1="-0.75" x2="0.325" y2="-0.5" layer="51"/>
-<rectangle x1="-0.325" y1="-0.75" x2="-0.175" y2="-0.5" layer="51"/>
-<rectangle x1="-0.2" y1="-0.675" x2="0.2" y2="-0.5" layer="51"/>
-<rectangle x1="-0.1" y1="0" x2="0.1" y2="0.2" layer="21"/>
-<rectangle x1="-0.6" y1="0.5" x2="-0.3" y2="0.8" layer="51"/>
-<rectangle x1="-0.625" y1="0.925" x2="-0.4" y2="1" layer="51"/>
 </package>
 </packages>
 </library>
@@ -335,6 +312,33 @@ CONN_04
 </description>
 </package3d>
 </packages3d>
+</library>
+<library name="adafruit">
+<packages>
+<package name="CHIPLED_1206">
+<description>&lt;b&gt;CHIPLED&lt;/b&gt;&lt;p&gt;
+Source: http://www.osram.convergy.de/ ... LG_LY N971.pdf</description>
+<wire x1="-0.4" y1="1.625" x2="0.4" y2="1.625" width="0.1016" layer="51" curve="180" cap="flat"/>
+<wire x1="-0.8" y1="-0.95" x2="-0.8" y2="0.95" width="0.1016" layer="51"/>
+<wire x1="0.8" y1="0.95" x2="0.8" y2="-0.95" width="0.1016" layer="51"/>
+<circle x="-0.55" y="1.425" radius="0.1" width="0.1016" layer="51"/>
+<smd name="C" x="0" y="1.75" dx="1.5" dy="1.5" layer="1"/>
+<smd name="A" x="0" y="-1.75" dx="1.5" dy="1.5" layer="1"/>
+<text x="-1.27" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.85" y1="1.525" x2="-0.35" y2="1.65" layer="51"/>
+<rectangle x1="-0.85" y1="1.225" x2="-0.625" y2="1.55" layer="51"/>
+<rectangle x1="-0.45" y1="1.225" x2="-0.325" y2="1.45" layer="51"/>
+<rectangle x1="-0.65" y1="1.225" x2="-0.225" y2="1.35" layer="51"/>
+<rectangle x1="0.35" y1="1.3" x2="0.85" y2="1.65" layer="51"/>
+<rectangle x1="0.25" y1="1.225" x2="0.85" y2="1.35" layer="51"/>
+<rectangle x1="-0.85" y1="0.95" x2="0.85" y2="1.25" layer="51"/>
+<rectangle x1="-0.85" y1="-1.65" x2="0.85" y2="-0.95" layer="51"/>
+<rectangle x1="-0.85" y1="0.35" x2="-0.525" y2="0.775" layer="21"/>
+<rectangle x1="0.525" y1="0.35" x2="0.85" y2="0.775" layer="21"/>
+<rectangle x1="-0.175" y1="0" x2="0.175" y2="0.35" layer="21"/>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -527,13 +531,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$4" library="bschulz" package="POGO_HOLE" value="POGO_HOLE" x="12.063" y="15.612"/>
 <element name="U$5" library="bschulz" package="POGO_HOLE" value="POGO_HOLE" x="4.193" y="16.762"/>
 <element name="U$6" library="bschulz" package="POGO_HOLE" value="POGO_HOLE" x="12.063" y="17.522"/>
-<element name="U$7" library="bschulz" package="POGO_HOLE" value="POGO_HOLE" x="4.193" y="7.862"/>
+<element name="U$7" library="bschulz" package="POGO_HOLE" value="POGO_HOLE" x="4.193" y="9.012"/>
 <element name="U$8" library="bschulz" package="POGO_HOLE" value="POGO_HOLE" x="12.063" y="21.972"/>
 <element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04" package3d_urn="urn:adsk.eagle:package:38085/1" value="" x="12.065" y="5.461" rot="R180">
 <attribute name="PROD_ID" value="CONN-09696" x="12.065" y="5.461" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED1" library="adafruit" library_urn="urn:adsk.eagle:library:420" package="CHIPLED_0805" value="" x="10.795" y="9.017" smashed="yes" rot="R180">
-<attribute name="VALUE" x="8.255" y="10.287" size="1.27" layer="27" rot="R270"/>
+<element name="LED1" library="adafruit" package="CHIPLED_1206" value="" x="10.922" y="9.779" smashed="yes" rot="R180">
+<attribute name="VALUE" x="8.382" y="11.049" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R1" library="bschulz" package="R0603" value="330R" x="13.208" y="8.763" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="" x="13.208" y="8.763" size="1.778" layer="27" rot="R270" display="off"/>
@@ -547,11 +551,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="3V3">
 <contactref element="U$1" pad="P$1"/>
 <contactref element="J1" pad="3"/>
-<wire x1="6.985" y1="5.461" x2="6.985" y2="6.54695" width="0.3048" layer="1"/>
-<wire x1="3.177" y1="19.85284375" x2="4.193" y2="20.86884375" width="0.3048" layer="1"/>
+<wire x1="4.193" y1="20.86884375" x2="3.177" y2="19.85284375" width="0.3048" layer="1"/>
 <wire x1="4.193" y1="20.86884375" x2="4.193" y2="23.622" width="0.3048" layer="1"/>
-<wire x1="6.985" y1="6.54695" x2="3.177" y2="10.35495" width="0.3048" layer="1"/>
-<wire x1="3.177" y1="10.35495" x2="3.177" y2="19.85284375" width="0.3048" layer="1"/>
+<wire x1="3.177" y1="8.59115625" x2="3.77215625" y2="7.996" width="0.3048" layer="1"/>
+<wire x1="3.77215625" y1="7.996" x2="4.45" y2="7.996" width="0.3048" layer="1"/>
+<wire x1="4.45" y1="7.996" x2="6.985" y2="5.461" width="0.3048" layer="1"/>
+<wire x1="3.177" y1="19.85284375" x2="3.177" y2="8.59115625" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="U$2" pad="P$1"/>
@@ -563,14 +568,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="4.148" y1="10.665" x2="8.298" y2="10.665" width="0.254" layer="1"/>
 <wire x1="12.063" y1="23.622" x2="9.398" y2="23.622" width="0.254" layer="1"/>
 <wire x1="9.398" y1="23.622" x2="6.858" y2="21.082" width="0.254" layer="1"/>
-<wire x1="9.525" y1="5.461" x2="9.525" y2="7.967" width="0.3048" layer="1"/>
-<wire x1="9.525" y1="7.967" x2="9.525" y2="9.438" width="0.3048" layer="1"/>
+<wire x1="9.525" y1="5.461" x2="9.525" y2="7.62" width="0.3048" layer="1"/>
+<wire x1="9.525" y1="7.62" x2="9.525" y2="9.438" width="0.3048" layer="1"/>
 <wire x1="9.525" y1="9.438" x2="8.298" y2="10.665" width="0.3048" layer="1"/>
-<wire x1="10.795" y1="7.967" x2="9.525" y2="7.967" width="0.3048" layer="1"/>
 <wire x1="6.858" y1="21.082" x2="6.858" y2="20.08660625" width="0.254" layer="16"/>
 <wire x1="6.858" y1="20.08660625" x2="7.9502" y2="18.99440625" width="0.254" layer="16"/>
 <wire x1="7.9502" y1="7.0358" x2="9.525" y2="5.461" width="0.254" layer="16"/>
 <wire x1="7.9502" y1="18.99440625" x2="7.9502" y2="7.0358" width="0.254" layer="16"/>
+<wire x1="9.525" y1="7.62" x2="10.513" y2="7.62" width="0.3048" layer="1"/>
+<wire x1="10.513" y1="7.62" x2="10.922" y2="8.029" width="0.3048" layer="1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="U$3" pad="P$1"/>
@@ -609,10 +615,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U$7" pad="P$1"/>
 <contactref element="ISP1" pad="2"/>
 <contactref element="J1" pad="4"/>
-<wire x1="4.445" y1="5.461" x2="4.445" y2="7.61" width="0.3048" layer="1"/>
-<wire x1="4.445" y1="7.61" x2="4.193" y2="7.862" width="0.3048" layer="1"/>
 <wire x1="6.858" y1="16.002" x2="4.193" y2="13.337" width="0.254" layer="16"/>
-<wire x1="4.193" y1="13.337" x2="4.193" y2="7.862" width="0.254" layer="16"/>
+<wire x1="4.193" y1="13.337" x2="4.193" y2="9.012" width="0.254" layer="16"/>
+<wire x1="4.193" y1="9.012" x2="4.193" y2="5.713" width="0.254" layer="16"/>
+<wire x1="4.193" y1="5.713" x2="4.445" y2="5.461" width="0.254" layer="16"/>
 </signal>
 <signal name="TEST_PIN">
 <contactref element="U$8" pad="P$1"/>
@@ -629,8 +635,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$1">
 <contactref element="LED1" pad="A"/>
 <contactref element="R1" pad="1"/>
-<wire x1="13.208" y1="9.613" x2="12.754" y2="10.067" width="0.3048" layer="1"/>
-<wire x1="12.754" y1="10.067" x2="10.795" y2="10.067" width="0.3048" layer="1"/>
+<wire x1="10.922" y1="11.529" x2="12.728" y2="11.529" width="0.3048" layer="1"/>
+<wire x1="12.728" y1="11.529" x2="13.208" y2="11.049" width="0.3048" layer="1"/>
+<wire x1="13.208" y1="11.049" x2="13.208" y2="9.613" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$2">
 <via x="2.286" y="26.035" extent="1-16" drill="2.4384" diameter="3.556"/>
