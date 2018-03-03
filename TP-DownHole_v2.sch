@@ -10128,7 +10128,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$6" library="bschulz" deviceset="TPS797*" device="" technology="33"/>
 <part name="C4" library="bschulz_passives" deviceset="C-EU" device="C0402" value="0.1uF"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C5" library="bschulz_passives" deviceset="C-EU" device="C0402" value="0.47uF"/>
+<part name="C5" library="bschulz_passives" deviceset="C-EU" device="C0603" value="0.47uF"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$7" library="bschulz" deviceset="MAX6070AAUT*" device="" technology="18"/>
 <part name="C6" library="bschulz_passives" deviceset="C-EU" device="C0402" value="0.1uF"/>
