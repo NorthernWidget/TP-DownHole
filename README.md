@@ -12,7 +12,7 @@ Temperature and pressure measurements in a slim package for downhole operations.
 
 The pinout of the device is the same across all models, and consists of SDA (White), SCL (Green), Vcc (Red), and GND (Black). This pinout is shown below for clarity 
 
-![](TP-DownholeWireGuide.png?raw=true "Title")
+![](Hardware/TP-DownholeWireGuide.png?raw=true "Title")
 
 ## Specifications:
 
