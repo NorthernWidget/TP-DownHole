@@ -1,0 +1,15 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"DIGIKEY";"MF";"MPN";"PROD_ID";"VALUE";"VALUE_PART";
+"8";"";"SMD2";"SMD1,27-2,54";"PAD1, PAD2, PAD3, PAD6, PAD7, PAD8, PAD9, PAD10";"SMD PAD";"";"";"";"";"";"";
+"3";"0.1uF";"C-EU0.1UFC0402";"C0402";"C4, C6, C7";"CAPACITOR, European symbol";"399-14268-1-ND";"KEMET";"C0402C104M4PAC7867";"";"";"";
+"1";"1uF";"C-EU1UFC0603";"C0603";"C5";"CAPACITOR, European symbol";"1276-6524-1-ND";"Samsung";"1276-6524-1-ND";"";"";"";
+"2";"4.7k";"R-EU_4.7KR0402";"R0402";"R1, R2";"RESISTOR, European symbol";"311-4.7KLRCT-ND";"Yageo";"RC0402FR-074K7L";"";"";"";
+"1";"47k";"R-EU_R0603";"R0603";"RREF";"RESISTOR, European symbol";"P47KDBCT-ND";"Panasonic";"ERA-3AEB473V";"";"";"";
+"1";"DMG3404";"MOSFET-NCH-DMG3404L";"SOT23-3";"Q2";"N-channel MOSFETs";"DMG3404L-7DICT-ND";"Diodes Incorporated";"DMG3404L-7";"";"DMG3404";"";
+"1";"FRAME-LETTER";"FRAME-LETTER";"CREATIVE_COMMONS";"FRAME1";"Schematic Frame - Letter";"";"";"";"";"";"";
+"1";"JUMPER-SMT_3_1-NC_PASTE_SILK";"JUMPER-SMT_3_1-NC_PASTE_SILK";"SMT-JUMPER_3_1-NC_PASTE_SILK";"JP1";"Normally closed solder jumper (1 of 2 connections)";"";"";"";"";"";"";
+"1";"MAX6070AAUT18";"MAX6070AAUT18";"SOT23-6L";"U$7";"MAX6070 Low Noise high precision voltage referance";"MAX6070BAUT18+TCT-ND";"Maxim";"MAX6070BAUT18+T";"";"";"";
+"1";"MCP3425";"MCP3425";"SOT23-6L";"U$2";"MCP3425 - Sigma Delta ADC";"MCP3425A0T-E/CHCT-ND";"Microchip";"MCP3425A0T-E/CH";"";"";"";
+"1";"MS5803-14BA";"MS5803-14BA";"MS5803";"U1";"";"223-1625-5-ND";"TE";"MS580305BA01-00";"IC-12111";"";"";
+"1";"OSHW-LOGOS";"OSHW-LOGOS";"OSHW-LOGO-S";"LOGO3";"Open-Source Hardware (OSHW) Logo";"";"";"";"";"";"";
+"1";"R0=47k";"R-EU_R0603";"R0603";"THERM";"RESISTOR, European symbol";"490-12101-1-ND";"Murata";"NCP18WB473D03RB";"";"";"";
+"1";"TPS79733";"TPS79733";"DCK_R-PDSO-G5";"U$6";"TPS797xx, Ultra low power linear voltage regulator, fixed voltages of 1.8v, 3v, 3.3v";"296-11990-1-ND";"TI";"TPS79733DCKR";"";"";"";
