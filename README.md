@@ -47,3 +47,6 @@ General Model Notes:
 [MS5803-01](https://www.digikey.com/product-detail/en/te-connectivity-measurement-specialties/MS580301BA01-00/223-1623-5-ND/5277628) (barometer module that can be shallowly submerged, to 130 kPa, up to 1mm resolution):
 
 Additional pressure sensors exist in this series for deeper depths, but with correlated lower resolutions.
+
+<br>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
