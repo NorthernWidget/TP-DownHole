@@ -6479,7 +6479,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="FRAME1" library="bschulz" deviceset="FRAME_A_L" device="">
 <attribute name="DESIGNER" value="Bobby Schulz"/>
-<attribute name="PROJECT" value="Longbow"/>
+<attribute name="PROJECT" value="TP-Downhole"/>
 <attribute name="REV" value="v0.1"/>
 </part>
 </parts>

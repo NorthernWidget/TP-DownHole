@@ -858,7 +858,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </element>
 <element name="FRAME1" library="bschulz" package="CREATIVE_COMMONS" value="" x="26.035" y="-6.858">
 <attribute name="DESIGNER" value="Bobby Schulz" x="26.035" y="-6.858" size="1.778" layer="27" display="off"/>
-<attribute name="PROJECT" value="Longbow" x="26.035" y="-6.858" size="1.778" layer="27" display="off"/>
+<attribute name="PROJECT" value="TP-Downhole" x="26.035" y="-6.858" size="1.778" layer="27" display="off"/>
 <attribute name="REV" value="v0.1" x="26.035" y="-6.858" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
