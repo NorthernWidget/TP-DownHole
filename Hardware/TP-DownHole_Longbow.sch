@@ -4605,7 +4605,19 @@ Source: AVX .. aphvc.pdf</description>
 </symbols>
 <devicesets>
 <deviceset name="R-EU_" prefix="R" uservalue="yes">
-<description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
+<description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol
+
+
+&lt;p&gt;&lt;b&gt;Digikey Parts:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href = "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;sf=0&amp;FV=ffec1104%2Cfffc000d%2C1c0002%2C440067%2C1f140000%2Cffe00034%2C400004&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;pageSize=25"&gt; Yageo, 0402&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href = "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;s=4356&amp;s=47360&amp;sf=0&amp;FV=fffc000d%2C1c0002%2C142c040c%2C1f140000%2Cffe00034&amp;quantity=10&amp;ColumnSort=1000011&amp;page=1&amp;stock=1&amp;pageSize=25"&gt; Yageo, 0603&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href = "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=ffec4907%2Cfffc000a%2Cc0172%2C142c040c%2C1f140000%2Cffe00034%2C1c0002&amp;quantity=100&amp;ColumnSort=2085&amp;page=1&amp;stock=1&amp;pageSize=25"&gt; Panasonic, precision, 0603&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;a href = "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&amp;pkeyword=&amp;pv7=2&amp;sf=0&amp;FV=ffec5d6b%2Cffe00034%2C1f140000&amp;quantity=&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;pageSize=25"&gt; Vishay, pulse proof automotive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
 </gates>
@@ -4620,16 +4632,31 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="DIGIKEY" value="" constant="no"/>
 <attribute name="MF" value="Yageo" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
+<attribute name="VALUE_PART" value="" constant="no"/>
+</technology>
+<technology name="100">
+<attribute name="DIGIKEY" value="311-100LRCT-ND" constant="no"/>
+<attribute name="MF" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0402FR-07100RL" constant="no"/>
+<attribute name="VALUE_PART" value="100" constant="no"/>
 </technology>
 <technology name="10K">
-<attribute name="DIGIKEY" value="311-10.0KLRCT-ND" constant="no"/>
+<attribute name="DIGIKEY" value="311-10KJRCT-ND" constant="no"/>
 <attribute name="MF" value="Yageo" constant="no"/>
-<attribute name="MPN" value="RC0402FR-0710KL" constant="no"/>
+<attribute name="MPN" value="RC0402JR-0710KL" constant="no"/>
+<attribute name="VALUE_PART" value="10k" constant="no"/>
+</technology>
+<technology name="200K">
+<attribute name="DIGIKEY" value="311-200KLRCT-ND" constant="no"/>
+<attribute name="MF" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0402FR-07200KL" constant="no"/>
+<attribute name="VALUE_PART" value="200k" constant="no"/>
 </technology>
 <technology name="4.7K">
-<attribute name="DIGIKEY" value="311-4.7KLRCT-ND" constant="no"/>
+<attribute name="DIGIKEY" value="311-4.7KJRCT-ND" constant="no"/>
 <attribute name="MF" value="Yageo" constant="no"/>
-<attribute name="MPN" value="RC0402FR-074K7L" constant="no"/>
+<attribute name="MPN" value="RC0402JR-074K7L" constant="no"/>
+<attribute name="VALUE_PART" value="4.7k" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5489,9 +5516,9 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="MPN" value="" constant="no"/>
 </technology>
 <technology name="0.1UF">
-<attribute name="DIGIKEY" value="399-14268-1-ND" constant="no"/>
-<attribute name="MF" value="KEMET" constant="no"/>
-<attribute name="MPN" value="C0402C104M4PAC7867" constant="no"/>
+<attribute name="DIGIKEY" value="490-4759-1-ND" constant="no"/>
+<attribute name="MF" value="Murata" constant="no"/>
+<attribute name="MPN" value="GCM155R71C104KA55D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5536,9 +5563,9 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="MPN" value="GRM1555C1H120GA01D" constant="no"/>
 </technology>
 <technology name="1UF">
-<attribute name="DIGIKEY" value="1276-6524-1-ND" constant="no"/>
-<attribute name="MF" value="Samsung" constant="no"/>
-<attribute name="MPN" value="1276-6524-1-ND" constant="no"/>
+<attribute name="DIGIKEY" value="490-10479-1-ND" constant="no"/>
+<attribute name="MF" value="Murata" constant="no"/>
+<attribute name="MPN" value="GRM188R61C105KA12D" constant="no"/>
 </technology>
 <technology name="2.2UF">
 <attribute name="DIGIKEY" value="1276-1183-1-ND" constant="no"/>
@@ -6451,8 +6478,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$10" library="bschulz" deviceset="POGO_PAD" device=""/>
 <part name="U$11" library="bschulz" deviceset="POGO_PAD" device=""/>
 <part name="U$12" library="bschulz" deviceset="POGO_PAD" device=""/>
-<part name="R6" library="bschulz_passives" deviceset="R-EU_" device="R0402"/>
-<part name="R7" library="bschulz_passives" deviceset="R-EU_" device="R0402"/>
+<part name="R6" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100"/>
+<part name="R7" library="bschulz_passives" deviceset="R-EU_" device="R0402" technology="100"/>
 <part name="U$13" library="bschulz" deviceset="TPS797*" device="" technology="33"/>
 <part name="C4" library="bschulz_passives" deviceset="C-EU" device="C0402" technology="0.1UF" value="0.1uF"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -6471,9 +6498,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="MPN" value="ERA-3AEB103V"/>
 </part>
 <part name="THERM" library="bschulz" deviceset="THERMISTOR" device="" technology="10K" value="10k">
-<attribute name="DIGIKEY" value="490-12101-1-ND"/>
 <attribute name="MF" value="Murata"/>
-<attribute name="MPN" value="NCP18WB473D03RB"/>
 </part>
 <part name="GND4" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
@@ -6953,8 +6978,8 @@ depth meter: 0-5 bar)</text>
 <segment>
 <pinref part="U$4" gate="G$1" pin="PA0"/>
 <wire x1="137.16" y1="83.82" x2="124.46" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="83.82" x2="116.84" y2="78.74" width="0.1524" layer="91"/>
-<label x="116.84" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="124.46" y1="83.82" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
+<label x="119.38" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U$12" gate="G$1" pin="P$1"/>
