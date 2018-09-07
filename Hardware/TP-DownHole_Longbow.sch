@@ -918,9 +918,9 @@ Digikey: &lt;br&gt;&lt;a href = "https://www.digikey.com/product-detail/en/texas
 <attribute name="MPN" value="" constant="no"/>
 </technology>
 <technology name="0">
-<attribute name="DIGIKEY" value="296-31719-1-ND" constant="no"/>
+<attribute name="DIGIKEY" value="296-19625-1-ND" constant="no"/>
 <attribute name="MF" value="TI" constant="no"/>
-<attribute name="MPN" value="SN65HVD3082EDR" constant="no"/>
+<attribute name="MPN" value="SN65HVD30DR" constant="no"/>
 </technology>
 <technology name="1">
 <attribute name="DIGIKEY" value="296-19626-1-ND" constant="no"/>

@@ -785,9 +785,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="2.032" y="14.732" size="0.0254" layer="27"/>
 </element>
 <element name="U$5" library="bschulz" package="SO08" value="SN65HVD30" x="3.302" y="20.955" smashed="yes" rot="MR180">
-<attribute name="DIGIKEY" value="296-31719-1-ND" x="3.302" y="20.955" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="DIGIKEY" value="296-19625-1-ND" x="3.302" y="20.955" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MF" value="TI" x="3.302" y="20.955" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="MPN" value="SN65HVD3082EDR" x="3.302" y="20.955" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="MPN" value="SN65HVD30DR" x="3.302" y="20.955" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="U$3" library="bschulz" package="POGO_PAD" value="POGO_PAD" x="8.636" y="33.528" rot="MR0"/>
 <element name="U$6" library="bschulz" package="POGO_PAD" value="POGO_PAD" x="0.762" y="33.528" rot="MR0"/>

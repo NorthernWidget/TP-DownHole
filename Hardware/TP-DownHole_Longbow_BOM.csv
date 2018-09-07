@@ -16,5 +16,5 @@
 "1";"MCP3425";"MCP3425";"SOT23-6L";"U$2";"MCP3425 - Sigma Delta ADC";"";"MCP3425A0T-E/CHCT-ND";"Microchip";"MCP3425A0T-E/CH";"";"";"";"";"";
 "1";"MS5803-14BA";"MS5803-14BA";"MS5803";"U1";"";"";"223-1625-5-ND";"TE";"MS580305BA01-00";"IC-12111";"";"";"";"";
 "8";"POGO_PAD";"POGO_PAD";"POGO_PAD";"U$3, U$6, U$7, U$8, U$9, U$10, U$11, U$12";"POGO Pad";"";"";"";"";"";"";"";"";"";
-"1";"SN65HVD30";"SN65HVD30";"SO08";"U$5";"SN65HVD3x - Full Duplex RS-485 Tranciver";"";"296-31719-1-ND";"TI";"SN65HVD3082EDR";"";"";"";"";"";
+"1";"SN65HVD30";"SN65HVD30";"SO08";"U$5";"SN65HVD3x - Full Duplex RS-485 Tranciver";"";"296-19625-1-ND";"TI";"SN65HVD30DR";"";"";"";"";"";
 "1";"TPS79733";"TPS79733";"DCK_R-PDSO-G5";"U$13";"TPS797* - Ultra Low Power Low Dropout Linear Regulator";"";"296-11990-1-ND";"TI";"TPS79733DCKR";"";"";"";"";"";
