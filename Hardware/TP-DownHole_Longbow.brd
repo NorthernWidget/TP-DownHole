@@ -738,10 +738,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="RC0402JR-074K7L" x="8.1915" y="28.3845" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE_PART" value="4.7k" x="8.1915" y="28.3845" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$2" library="bschulz" package="SOT23-6L" value="MCP3425" x="7.62" y="32.004" smashed="yes">
-<attribute name="DIGIKEY" value="MCP3425A0T-E/CHCT-ND" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
+<element name="U$2" library="bschulz" package="SOT23-6L" value="MCP3421A3" x="7.62" y="32.004" smashed="yes">
+<attribute name="DIGIKEY" value="MCP3421A3T-E/CHCT-ND" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
+<attribute name="DISP" value="MCP3421" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Microchip" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MCP3425A0T-E/CH" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCP3421A3T-E/CH" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$4" library="bschulz" package="SOIC_14" value="ATTINY441/841841" x="4.699" y="29.21" rot="MR270">
 <attribute name="DIGIKEY" value="ATTINY841-SSU-ND" x="4.699" y="29.21" size="1.778" layer="28" rot="MR270" display="off"/>

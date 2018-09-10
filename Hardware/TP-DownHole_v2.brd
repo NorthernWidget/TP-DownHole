@@ -646,10 +646,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MF" value="Murata" x="3.556" y="32.4485" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="NCP18WB473D03RB" x="3.556" y="32.4485" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U$2" library="bschulz" package="SOT23-6L" value="MCP3425" x="7.62" y="32.004" smashed="yes">
-<attribute name="DIGIKEY" value="MCP3425A0T-E/CHCT-ND" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
+<element name="U$2" library="bschulz" package="SOT23-6L" value="MCP3421A1" x="7.62" y="32.004" smashed="yes">
+<attribute name="DIGIKEY" value="MCP3421A1T-E/CHCT-ND" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
+<attribute name="DISP" value="MCP3421" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="Microchip" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="MCP3425A0T-E/CH" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="MCP3421A1T-E/CH" x="7.62" y="32.004" size="1.778" layer="27" display="off"/>
 </element>
 <element name="PAD1" library="bschulz" package="SMD1,27-2,54" value="" x="7.366" y="14.732" smashed="yes" rot="R180">
 <attribute name="VALUE" x="7.366" y="14.732" size="0.0254" layer="27" rot="R180"/>
