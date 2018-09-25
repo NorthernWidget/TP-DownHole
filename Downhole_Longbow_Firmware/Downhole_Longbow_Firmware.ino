@@ -43,7 +43,7 @@ SlowSoftWire Wire = SlowSoftWire( 4, 6);
 #define COEF15 0
 
 #define PresADR 0x77
-#define ADC_ADR 0x68
+#define ADC_ADR 0x6B
 
 // #define ADR_Print 13
 
@@ -77,7 +77,9 @@ char Format = 'f';
 uint8_t Baud = 4;  //Baud rate multiplier x*1200
 
 void setup() {
-	// pinMode(10, OUTPUT); //DEBUG!
+//	 pinMode(10, OUTPUT); //DEBUG!
+     DDRA = DDRA | 0x01; //Set pin A0 as OUTPUT
+     PORTA = PORTA | 0x01; //DEBUG! Set A0 port, set A0 HIGH 
 	// digitalWrite(10, HIGH); //DEBUG!
 	Wire.begin();
     // si.i2c_init(); //Begin I2C master
@@ -102,7 +104,7 @@ void setup() {
         Baud = EEPROM.read(0x03);
         ADR_Print = CharToInt(ADR); 
     }
-
+    
     long LocalTime = millis();
     while(millis() - LocalTime < 1000) {
         if(Serial.read() == '!') {  //If 'ESCAPE' message is sent, reset to defaults!
@@ -122,6 +124,7 @@ void setup() {
 //	Serial.println(Pressure);
 	// delay(1000); //DEBUG!
 	// digitalWrite(10, LOW); //DEBUG!
+  PORTA = PORTA & 0xFE; //DEBUG! Clear A0 port, set A0 LOW 
 }
 
 void loop() {
@@ -134,6 +137,7 @@ void loop() {
     char Reg[2] = {0}; //Used to read in register ID
     // char Val;
     while(Serial.read() != SOF); //Wait for SOF character //DEBUG!
+    PORTA = PORTA | 0x01; //DEBUG! Set A0 port, set A0 HIGH 
     // delay(10);
     // Serial.print(Serial.available()); //DEBUG!
     // if(Serial.read() == '!') Reset();
@@ -146,6 +150,8 @@ void loop() {
     // Serial.print(TempADR[1]); //DEBUG!
     if(TempADR[0] == ADR[0] && TempADR[1] == ADR[1] || (TempADR[0] == GenADR[0] && TempADR[1] == GenADR[1])) //Proceed only if address matches unique, or general call
     {
+//        digitalWrite(10, HIGH); //DEBUG!
+        // PORTA = PORTA | 0x01; //DEBUG! Set A0 port, set A0 HIGH 
         Reg[0] = Serial.read();
         Reg[1] = Serial.read();
         // RegID = String(Reg).toInt();
@@ -159,7 +165,7 @@ void loop() {
             }
             Baud = Serial.read() - 48; //Must restart to take effect
             EEPROM.write(0x03, Baud);  //Store baud value as integer 
-            Serial.println(Baud); //DEBUG!
+            // Serial.println(Baud); //DEBUG!
         }
         if(RegID == 99) {  //Set address
             while(Serial.available() < 2) { //Wait for 2 bytes FIX add timeout! DEBUG!
@@ -258,6 +264,8 @@ void loop() {
 // 	    }
 //      Val = NULL; //clear value?? 
 //   	}
+//  digitalWrite(10, LOW); //DEBUG!
+    PORTA = PORTA & 0xFE; //DEBUG! Clear A0 port, set A0 LOW 
 }
 
 void ZeroAppend(uint8_t Val) 
@@ -462,9 +470,9 @@ uint8_t sendCommand(uint8_t Command)
 float GetTemp()
 {
 	uint8_t Data[3];
-    float ThermB = 4050; //Basic B value for thermistor 
+    float ThermB = 3380; //Basic B value for thermistor 
     // float ThermCoefs[4] = {0.003354016, 0.0003074038, 1.019153E-05, 9.093712E-07}; //Coefficients for enhanced accuracy
-    float VRef = 3.3; //Voltage referance used for thermistor
+    float VRef = 1.8; //Voltage referance used for thermistor
     float R0 = 10000; //Series resistor value with thermistor 
     float ThermR = 10000; //Nominal resistace value for the thermistor 
 
@@ -481,7 +489,7 @@ float GetTemp()
 
     float Val = (((long(Data[0]) & 0x03) << 16) + (long(Data[1]) << 8) + Data[2])*(1.5625e-5); //Voltage divider output
 
-    // Val = VRef - Val; //Voltage is measure across thermistor, not relative to ground
+    Val = VRef - Val; //Voltage is measure across thermistor, not relative to ground
     // Val = (VRef/Val)*R0 - R0;
     // Serial.println(Val);
     // // Serial.println(Rt/ThermR); //DEBUG!
