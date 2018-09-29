@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.0.1*%
+%TF.CreationDate,2018-09-05T19:34:14Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Bobby Schulz <schu3119@umn.edu>*%
+%TJ.B_ID,TP-DownHole_Longbow*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.671119*%
+%TJ.B_Size_X,9.525000*%
+%TJ.B_Size_Y,28.956000*%
+M02*
