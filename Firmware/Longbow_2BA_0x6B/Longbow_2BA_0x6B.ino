@@ -11,12 +11,12 @@
 //#define SCL_PIN 4 // = A5
 
 // #define GUT 
-SlowSoftWire Wire = SlowSoftWire( 4, 6);
+SlowSoftWire Wire = SlowSoftWire(4, 6);
 // SlowSoftI2CMaster si = SlowSoftI2CMaster(4, 6, true);  //Initialize software I2C
 
-#define MODEL 0x0501
-#define GROUPID 0x1701
-#define INDID 0x00
+#define MODEL 0x1201
+#define GROUPID 0x0871
+#define INDID 0x06
 #define FIRMWAREID 0x00
 
 #define CMD_RESET 0x1E // reset command
@@ -25,19 +25,19 @@ SlowSoftWire Wire = SlowSoftWire( 4, 6);
 
 #define CMD_PROM 0xA0 // Coefficient location
 
-#define COEF0 18
-#define COEF1 5
-#define COEF2 17
+#define COEF0 17
+#define COEF1 6
+#define COEF2 16
 #define COEF3 7
 #define COEF4 10000
-#define COEF5 3
-#define COEF6 33
-#define COEF7 3
-#define COEF8 3
-#define COEF9 7
-#define COEF10 3
-#define COEF11 0
-#define COEF12 3
+#define COEF5 1
+#define COEF6 31
+#define COEF7 61
+#define COEF8 4
+#define COEF9 2
+#define COEF10 0
+#define COEF11 20
+#define COEF12 12
 #define COEF13 0
 #define COEF14 0
 #define COEF15 0
